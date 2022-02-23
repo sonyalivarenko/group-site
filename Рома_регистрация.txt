@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="style.css"> <!-- это надо исправить -->
+  <link rel="icon" type="image" href="#">
+ </head>
+
+ <body>
+ 
+  
+
+
+ 
+        <div id="subscribe">
+            <form  action="#" autocomplete="on">
+                <h1> Регистрация </h1>
+                <p>
+                    <label for="namesignup" class="name">Name</label>
+                    <input id="namesignup" name="namesignup" required="required" type="text" />
+                </p>
+                <p>
+                    <label for="surnamesignup" class="surname">Surname</label>
+                    <input id="surnamesignup" name="surnamesignup" required="required" type="text" />
+                </p>
+                <p>
+                    <label for="usernamesignup" class="username">Username</label>
+                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" />
+                </p>
+                <p>
+                    <label for="emailsignup" class="email">Email</label>
+                    <input id="emailsignup" name="emailsignup" required="required" type="text" />
+                </p>
+                <p>
+                    <label for="groupsignup" class="group">Group number</label>
+                    <input id="groupsignup" name="groupsignup" required="required" type="text" />
+                </p>
+                <p>
+                    <label for="passwordsignup" class="password">Password </label>
+                    <input id="passwordsignup" name="passwordsignup" required="required" type="password"/>
+                </p>
+                <p>
+                    <label for="repeatpasswordsignup" class="repeatpassword">Repeat password</label>
+                    <input id="repeatpasswordsignup" name="repeatpasswordsignup" required="required" type="password"/>
+                </p>
+                <p class="signin button">
+                    <input type="submit" value="Регистрация"/>
+                </p>
+               <p class="change_link">
+                    Уже имеете аккаунт?
+                </p>
+                <p>
+                    <a href="#" class="to_subscribe">Войти</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+ </body>
+
+</html>

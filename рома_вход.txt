@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="UTF-8">
+  <title>Вход</title>
+  <link rel="stylesheet" href="style.css"> <!-- это надо исправить -->
+  <link rel="icon" type="image" href="#">
+ </head>
+
+ <body>
+ 
+  
+
+<div id="container_menu" >
+        <div id="login">
+            <form  action="#" autocomplete="on">
+                <h1>Авторизация</h1>
+                <p>
+                    <label for="username" class="username" > Username </label>
+                    <input id="username" name="username" required="required" type="text" placeholder="Логин/Почта"/>
+                </p>
+                <p>
+                    <label for="password" class="passwordd"> Password </label>
+                    <input id="password" name="password" required="required" type="password" />
+                </p>
+                <p class="login button">
+                    <input type="submit" value="Войти" />
+                </p>
+                <p class="change_link">
+                    Еще не зарегистрированы?
+                </p>
+                <p>
+                    <a href="#" class="to_subscribe">Регистрация</a>
+                </p>
+            </form>
+        </div>
+
+</body>
+</html>
